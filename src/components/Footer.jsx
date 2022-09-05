@@ -4,7 +4,7 @@ import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="grid justify-between md:grid-cols-4 grid-cols-1 ml-20 mt-20 pb-20">
+    <div className="grid justify-between gap-4 md:grid-cols-4 grid-cols-1 ml-20 mt-20 pb-20">
       <div className="flex flex-col ">
         <p className="font-bold">Out Information</p>
         <a href="#" className="text-md text-text-color mt-2">
